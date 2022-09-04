@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Not Found Page should render page  1`] = `
+<div>
+  <div
+    class="conatiner"
+  >
+    <h1>
+      page not found
+    </h1>
+    <a
+      href="/"
+    >
+      go to Applications
+    </a>
+  </div>
+</div>
+`;

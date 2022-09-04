@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Applications Page happy flow should render page  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2
+      class="applications_header"
+    >
+      Applications
+    </h2>
+    <div
+      class="input-wrapper"
+    >
+      <input
+        class="input"
+        placeholder="search here"
+        type="search"
+        value=""
+      />
+    </div>
+    <table
+      class="table-container"
+    >
+      <thead
+        class="table-header"
+      >
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            Email
+          </th>
+          <th>
+            Age
+          </th>
+          <th>
+            Years of experience
+            <span
+              class="arrow-wrapper"
+            >
+              <button
+                data-testid="year_of_experience-asc"
+                disabled=""
+              >
+                <svg
+                  height="15px"
+                  viewBox="0 0 330 330"
+                  width="15px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m325.606 229.393-150.004-150a14.997 14.997 0 0 0-21.213.001l-149.996 150c-5.858 5.858-5.858 15.355 0 21.213 5.857 5.857 15.355 5.858 21.213 0l139.39-139.393 139.397 139.393A14.953 14.953 0 0 0 315 255a14.95 14.95 0 0 0 10.607-4.394c5.857-5.858 5.857-15.355-.001-21.213z"
+                  />
+                </svg>
+              </button>
+              <button
+                data-testid="year_of_experience-des"
+                disabled=""
+              >
+                <svg
+                  height="15px"
+                  viewBox="0 0 25.93 25.93"
+                  width="15px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.397 4.554h-2.042l-9.974 12.644a.54.54 0 0 1-.835 0L2.575 4.554H.532a.533.533 0 0 0-.419.86l12.435 15.762c.104.125.255.2.419.2a.54.54 0 0 0 .416-.2L25.816 5.413a.524.524 0 0 0 .058-.561.524.524 0 0 0-.477-.298z"
+                  />
+                </svg>
+              </button>
+            </span>
+          </th>
+          <th>
+            Position applied
+            <span
+              class="arrow-wrapper"
+            >
+              <button
+                data-testid="position_applied-asc"
+                disabled=""
+              >
+                <svg
+                  height="15px"
+                  viewBox="0 0 330 330"
+                  width="15px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m325.606 229.393-150.004-150a14.997 14.997 0 0 0-21.213.001l-149.996 150c-5.858 5.858-5.858 15.355 0 21.213 5.857 5.857 15.355 5.858 21.213 0l139.39-139.393 139.397 139.393A14.953 14.953 0 0 0 315 255a14.95 14.95 0 0 0 10.607-4.394c5.857-5.858 5.857-15.355-.001-21.213z"
+                  />
+                </svg>
+              </button>
+              <button
+                data-testid="position_applied-des"
+                disabled=""
+              >
+                <svg
+                  height="15px"
+                  viewBox="0 0 25.93 25.93"
+                  width="15px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.397 4.554h-2.042l-9.974 12.644a.54.54 0 0 1-.835 0L2.575 4.554H.532a.533.533 0 0 0-.419.86l12.435 15.762c.104.125.255.2.419.2a.54.54 0 0 0 .416-.2L25.816 5.413a.524.524 0 0 0 .058-.561.524.524 0 0 0-.477-.298z"
+                  />
+                </svg>
+              </button>
+            </span>
+          </th>
+          <th>
+            Applied
+            <span
+              class="arrow-wrapper"
+            >
+              <button
+                data-testid="application_date-asc"
+                disabled=""
+              >
+                <svg
+                  height="15px"
+                  viewBox="0 0 330 330"
+                  width="15px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m325.606 229.393-150.004-150a14.997 14.997 0 0 0-21.213.001l-149.996 150c-5.858 5.858-5.858 15.355 0 21.213 5.857 5.857 15.355 5.858 21.213 0l139.39-139.393 139.397 139.393A14.953 14.953 0 0 0 315 255a14.95 14.95 0 0 0 10.607-4.394c5.857-5.858 5.857-15.355-.001-21.213z"
+                  />
+                </svg>
+              </button>
+              <button
+                data-testid="application_date-des"
+                disabled=""
+              >
+                <svg
+                  height="15px"
+                  viewBox="0 0 25.93 25.93"
+                  width="15px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.397 4.554h-2.042l-9.974 12.644a.54.54 0 0 1-.835 0L2.575 4.554H.532a.533.533 0 0 0-.419.86l12.435 15.762c.104.125.255.2.419.2a.54.54 0 0 0 .416-.2L25.816 5.413a.524.524 0 0 0 .058-.561.524.524 0 0 0-.477-.298z"
+                  />
+                </svg>
+              </button>
+            </span>
+          </th>
+          <th>
+            Status
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="table-body"
+      />
+    </table>
+    <div
+      class="info-wrapper"
+    >
+      <h5
+        class="error"
+      >
+        Error Occured! Please try again
+      </h5>
+    </div>
+  </div>
+</div>
+`;
