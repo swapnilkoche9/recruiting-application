@@ -14,6 +14,7 @@ export enum SortTypeEnum {
   descending = 'descending',
 }
 
+// return applications based on filter and search
 export const sortAndFilterApplications = (
   applications: IApplication[],
   searchValue: string,
@@ -72,6 +73,7 @@ export const sortAndFilterApplications = (
   }
 }
 
+// return object with key value based on url hash
 export const formattedHashValues = (hash: string) => {
   const result: { [key: string]: string } = {}
   if (!hash) return {}
@@ -89,6 +91,7 @@ export const formattedRowData = (application: IApplication) => {
   return { ...rest }
 }
 
+// set param to location hash
 export const setUrlParams = (key: string, value: string) => {
   params.set(key, value)
   window.location.hash = `?${params.toString()}`

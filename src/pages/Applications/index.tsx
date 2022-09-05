@@ -14,6 +14,7 @@ import {
 import { Column, IApplication } from '../../dtos/applications'
 import InfoBox from '../../components/InfoBox'
 import InputBox from '../../components/InputBox'
+import TableHeader from '../../components/Table/Header'
 
 import './applications.scss'
 
@@ -106,7 +107,11 @@ const Applications: FC = () => {
           value={searchValue || formattedSearchKey}
         />
       </div>
-      <Table columns={columns} disabled={isLoading || errorOccured} onSort={sortTable}>
+      <Table
+        tableHeader={
+          <TableHeader columns={columns} disabled={isLoading || errorOccured} onSort={sortTable} />
+        }
+      >
         {showApplications &&
           filteredApplications.map((application: IApplication) => (
             <TableRow key={application.id} rowData={formattedRowData(application)} />
